@@ -3,6 +3,9 @@
 //
 #include "gram.h"
 #include "math.h"
+
+int N = 50;
+
 double f(double x) {
     return cos(3 * x) * sin(sqrt(2)) * x;
 }
@@ -23,9 +26,9 @@ double getCj(double k, int n) {
     return result;
 }
 
-double approximate(double m, double x, double q){
+double approximate(double m, double q) {
     double result = 0;
-//    for(int j = 0; j <= m; j ++)
-//        result +=
+    for (int j = 0; j <= m; j++)
+        result += getCj(j, N) / getSj(j, N) * gram(j, N, q);
     return result;
 }
