@@ -3,4 +3,5 @@ project(approximation)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(approximation main.cpp gram.cpp helpers.cpp helpers.h)
+add_executable(approximation main.cpp gram.cpp approximate.cpp gram.h approximate.h helpers.cpp helpers.h)
+
