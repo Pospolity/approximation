@@ -4,3 +4,9 @@
 #pragma once
 
 double f(double x);
+
+double getSj(double k, int n);
+
+double getCj(double k, int n);
+
+double approximate(double m, double q);

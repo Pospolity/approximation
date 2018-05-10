@@ -4,4 +4,4 @@
 
 #pragma once
 
-void generatePoints(int *destArr, int rangeStart, int rangeEnd, int numberOfNodes);
+void generatePointsAndApplyLinearTransformation(double *xArr, int *qArr, int rangeStart, int rangeEnd, int numberOfNodes);
