@@ -48,12 +48,7 @@ int main() {
             doPliku << resultArr[i] << ",";
         doPliku << std::endl;
 
-
         doPliku.close();
     }
-
-
-
-
     return 0;
 }
